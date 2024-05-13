@@ -1,0 +1,17 @@
+.container {
+    border-style: solid;
+}
+
+.login {
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.usr,
+.pss {
+    text-align: center;
+}
+
+/* set basic login form, to be followed up tomorrow or next days */
