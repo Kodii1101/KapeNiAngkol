@@ -1,17 +1,27 @@
 .container {
     border-style: solid;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
 .login {
     border-style: solid;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding: 10px;
 }
 
 .usr,
 .pss {
     text-align: center;
+}
+
+.usrnmLabel,
+.passLabel {
+    min-width: 300px;
+    max-width: 500px;
 }
 
 /* set basic login form, to be followed up tomorrow or next days */
